@@ -20,3 +20,14 @@
 # 属性：
 # name：奖励的名称。
 # value：奖励的具体内容或值。
+
+from PyQt6.QtWidgets import QApplication, QWidget, QMainWindow, QDialog
+import sys
+
+app = QApplication(sys.argv)
+
+window = QWidget()
+
+window.show()
+
+sys.exit(app.exec())
