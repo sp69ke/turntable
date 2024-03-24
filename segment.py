@@ -1,3 +1,3 @@
 class Segment:
-    def Segment(self):
+    def __init__(self):
         pass

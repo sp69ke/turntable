@@ -1,3 +1,3 @@
 class Wheel:
-    def Wheel(self):
+    def __init__(self):
         pass
